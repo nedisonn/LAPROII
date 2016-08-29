@@ -1,0 +1,392 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+
+int main(){
+{
+// 
+Cria
+input file stream (
+ifstream
+)
+ifstream
+arq
+;
+cout
+<< "
+Abrindo
+arquivo
+texto
+..." << Manipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< 
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+endlManipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< 
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+;
+// 
+Abre
+arquivo
+arq.open
+( "teste.txt" , 
+ios
+::in );
+// Se 
+houver
+erro
+, 
+sai
+do 
+programa
+if (!
+arq.is_open
+())
+return (0);
+// Lê cabeçalho
+string
+cabecalho
+;Manipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< 
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+getline
+(
+arq,cabecalho
+)
+
+Manipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< Manipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< 
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {Manipulando 
+streams
+com C++
+
+Leitura de arquivos
+// Exibe cabeçalho na tela
+cout
+<< 
+cabecalho
+<< 
+endl
+;
+// Agora, lê n registros numéricos
+do
+{
+int
+num, valor;
+arq
+>> num >> valor;
+if
+(!
+arq.fail
+()) {
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+cout
+<< num << "
+\
+t" << valor << 
+endl
+;
+}
+} 
+while
+(
+arq.good
+());
+if
+(
+arq.bad
+() || !
+arq.eof
+()) {
+cout
+<< "Erro fatal!" << 
+endl
+;
+exit
+(1);
+// Aborta programa
+}
+cout
+<< "Fechando o arquivo..." << 
+endl
+;
+arq.close
+();
+return
+0;
+
+
+
+
+return 0;
+}
