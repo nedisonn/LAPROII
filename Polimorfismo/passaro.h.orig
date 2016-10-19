@@ -1,0 +1,10 @@
+class Passaro {
+protected: 
+bool emExtincao; 
+string corPredominante; 
+public: 
+Passaro(); 
+~Passaro(); 
+void canta(); 
+bool getEmExtincao(); 
+string getCorPredominante(); };

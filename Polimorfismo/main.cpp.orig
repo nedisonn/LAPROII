@@ -1,0 +1,11 @@
+int main() { 
+passaro *p = new Passaro (); 
+cout << "Passaro " << p->getCorPredominante() << " em extincao? R: " << p->getEmExtincao() << endl;
+p->canta();
+arara *a = new Arara (); 
+cout << "Arara " << a->getCorPredominante() << " em extincao? R: " << a->getEmExtincao() << endl; 
+a->canta(); 
+delete p; 
+delete a; 
+return 0; 
+} 
