@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1320060104 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/GL.cpp
+	"GL.h"
+	<sstream>
+
+1320060021 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/GL/glut.h
+	"freeglut.h"
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/GL/freeglut_ext.h
+
+1320013431 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/Labirinto.h
+	"Point.h"
+	<string>
+
+1320013445 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/Point.h
+
+1320013830 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/Robo.h
+	<vector>
+	"Point.h"
+
+1320024114 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/jconfig.h
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/jmorecfg.h
+
+1320027536 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/include/jerror.h
+
+1320027135 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/LabirintoTeste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+
+1320026578 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/LabirintoTeste.h
+	<fstream>
+	"Labirinto.h"
+
+1320027502 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"GL.h"
+
+1320025878 /home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/RoboB9.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1320027304 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/RoboB9.cpp
+	"RoboB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1320024172 source:/home/PORTOALEGRE/16104071/DriveH/LAPROII/TP2/robos-base/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
